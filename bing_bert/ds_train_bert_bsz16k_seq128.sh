@@ -2,10 +2,10 @@
 
 num_nodes=$DLWS_NUM_WORKER
 num_gpus=$DLWS_NUM_GPU_PER_WORKER
-batch_size=256
+batch_size=128
 
 # This micro batch size assumes 32GB V100 GPUs
-micro_batch=8
+micro_batch=4
 
 base_dir=`pwd`
 
