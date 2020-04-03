@@ -1,6 +1,6 @@
 {
-  "train_batch_size": 256,
-  "train_micro_batch_size_per_gpu": 8,
+  "train_batch_size": 128,
+  "train_micro_batch_size_per_gpu": 4,
   "steps_per_print": 1000,
   "prescale_gradients": true,
   "optimizer": {
@@ -16,7 +16,7 @@
   },
   "wall_clock_breakdown": true,
   "fp16": {
-    "enabled": true,
+    "enabled": false,
     "loss_scale": 0
   }
 }
